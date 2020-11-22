@@ -1,0 +1,50 @@
+:root {
+    --black-color: #000;
+    --text-color: #333;
+    --White-color: #fff;
+    --border-color: #dbdbdb;
+}
+.header-nen{
+    position: relative; 
+    width: 100%; 
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+/* Responsive */
+.container{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.btn__block{
+    background-color: #000;
+}
+/* trên */
+.abc{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+/* float */
+/* .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+textarea{
+    overflow: auto;
+}
